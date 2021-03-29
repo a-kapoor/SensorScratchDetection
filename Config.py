@@ -9,6 +9,8 @@ from tensorflow.keras.layers import Dropout
 DataFile='modified.txt'
 OutputDir='Output'
 
+testSize=0.2
+
 modelDNN_DNN_1=Sequential()
 modelDNN_DNN_1.add(Dense(5000, kernel_initializer='glorot_normal', activation='relu', input_dim=5427))
 modelDNN_DNN_1.add(Dense(2500, kernel_initializer='glorot_normal', activation='relu'))
