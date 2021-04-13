@@ -21,7 +21,7 @@ source /cvmfs/sft.cern.ch/lcg/views/LCG_97python3/x86_64-centos7-gcc8-opt/setup.
 ### All you need to do is to edit the Config.py with the settings for your analysis and then run 
 
 ``` 
-python DetectCNN.py #This automatically uses seetings from Config.py
+python DetectCNN.py #This automatically uses settings from Config.py
 
 ```
 
